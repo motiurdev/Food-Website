@@ -11,8 +11,8 @@ body {
 
 .btn {
     text-decoration: none;
-    background: linear-gradient(263deg,tomato, salmon);
-    padding: 10px 25px;
+    background: linear-gradient(150deg,#FBA24F, #FF1E1E);
+    padding: 15px 30px;
     color: #fff;
     border-radius: 25px;
 }
@@ -22,8 +22,8 @@ img {
 }
 
 section {
-    padding: 50px 0;
-}
+    margin: 50px 0;
+} 
 
 .flexable-item {
     display: flex;
@@ -33,6 +33,12 @@ section {
 h1 {
     font-size: 60px;
 }
+
+h2 {
+    font-size: 40px;
+    color: #707070;
+}
+
 
 .half-width {
     width: 50%;
@@ -55,4 +61,22 @@ h1 {
 
 .orange-color {
     color: orange;
+}
+
+
+/* about section style */
+
+.about {
+    background: url('images/shapes/7.png');
+    height: 500px;
+}
+
+.about img {
+    width: 80%;
+    margin-top: 94px;
+}
+
+.about p {
+    margin-right: 155px;
+    padding: 47px 0px;
 }
